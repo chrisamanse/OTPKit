@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFBAE1C31D7A8829002CF81C"
-               BuildableName = "OTKit iOS.framework"
+               BuildableName = "OTPKit.framework"
                BlueprintName = "OTKit iOS"
                ReferencedContainer = "container:OTPKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFBAE1C31D7A8829002CF81C"
-            BuildableName = "OTKit iOS.framework"
+            BuildableName = "OTPKit.framework"
             BlueprintName = "OTKit iOS"
             ReferencedContainer = "container:OTPKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFBAE1C31D7A8829002CF81C"
-            BuildableName = "OTKit iOS.framework"
+            BuildableName = "OTPKit.framework"
             BlueprintName = "OTKit iOS"
             ReferencedContainer = "container:OTPKit.xcodeproj">
          </BuildableReference>

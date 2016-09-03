@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF7D105C1D7A96FE00593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */; };
+		DF7D105E1D7A970700593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105D1D7A970700593A1D /* CryptoKit.framework */; };
+		DF7D10601D7A970F00593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105F1D7A970F00593A1D /* CryptoKit.framework */; };
 		DFBAE1DD1D7A88D1002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFBAE1DE1D7A88D2002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFBAE1DF1D7A88D3002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/Mac/CryptoKit.framework; sourceTree = "<group>"; };
+		DF7D105D1D7A970700593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/iOS/CryptoKit.framework; sourceTree = "<group>"; };
+		DF7D105F1D7A970F00593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/watchOS/CryptoKit.framework; sourceTree = "<group>"; };
 		DFBAE1B61D7A8814002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBAE1C41D7A8829002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBAE1D11D7A8835002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D105C1D7A96FE00593A1D /* CryptoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D105E1D7A970700593A1D /* CryptoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,17 +47,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D10601D7A970F00593A1D /* CryptoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF7D105A1D7A96FE00593A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D10621D7A972B00593A1D /* iOS */,
+				DF7D10611D7A972600593A1D /* macOS */,
+				DF7D10631D7A973500593A1D /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7D10611D7A972600593A1D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		DF7D10621D7A972B00593A1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D105D1D7A970700593A1D /* CryptoKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF7D10631D7A973500593A1D /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D105F1D7A970F00593A1D /* CryptoKit.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
 		DFBAE1AA1D7A8777002CF81C = {
 			isa = PBXGroup;
 			children = (
 				DFBAE1D91D7A888D002CF81C /* Sources */,
 				DFBAE1B71D7A8814002CF81C /* Products */,
+				DF7D105A1D7A96FE00593A1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,6 +343,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -365,6 +413,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -423,6 +475,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -489,6 +545,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -547,6 +607,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -612,6 +676,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -657,6 +725,7 @@
 				DFBAE1BD1D7A8814002CF81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFBAE1C91D7A8829002CF81C /* Build configuration list for PBXNativeTarget "OTKit iOS" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +734,7 @@
 				DFBAE1CB1D7A8829002CF81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFBAE1D61D7A8835002CF81C /* Build configuration list for PBXNativeTarget "OTPKit watchOS" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +743,7 @@
 				DFBAE1D81D7A8835002CF81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

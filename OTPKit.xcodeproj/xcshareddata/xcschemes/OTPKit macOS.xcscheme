@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFBAE1B51D7A8814002CF81C"
-               BuildableName = "OTPKit macOS.framework"
+               BuildableName = "OTPKit.framework"
                BlueprintName = "OTPKit macOS"
                ReferencedContainer = "container:OTPKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFBAE1B51D7A8814002CF81C"
-            BuildableName = "OTPKit macOS.framework"
+            BuildableName = "OTPKit.framework"
             BlueprintName = "OTPKit macOS"
             ReferencedContainer = "container:OTPKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFBAE1B51D7A8814002CF81C"
-            BuildableName = "OTPKit macOS.framework"
+            BuildableName = "OTPKit.framework"
             BlueprintName = "OTPKit macOS"
             ReferencedContainer = "container:OTPKit.xcodeproj">
          </BuildableReference>
