@@ -10,6 +10,15 @@
 		DF7D105C1D7A96FE00593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */; };
 		DF7D105E1D7A970700593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105D1D7A970700593A1D /* CryptoKit.framework */; };
 		DF7D10601D7A970F00593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105F1D7A970F00593A1D /* CryptoKit.framework */; };
+		DF7D10691D7A988300593A1D /* CounterBasedOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D10681D7A988300593A1D /* CounterBasedOTP.swift */; };
+		DF7D106A1D7A988300593A1D /* CounterBasedOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D10681D7A988300593A1D /* CounterBasedOTP.swift */; };
+		DF7D106B1D7A988300593A1D /* CounterBasedOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D10681D7A988300593A1D /* CounterBasedOTP.swift */; };
+		DF7D106D1D7AA22900593A1D /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D106C1D7AA22900593A1D /* Data+Int.swift */; };
+		DF7D106E1D7AA22900593A1D /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D106C1D7AA22900593A1D /* Data+Int.swift */; };
+		DF7D106F1D7AA22900593A1D /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D106C1D7AA22900593A1D /* Data+Int.swift */; };
+		DF7D10711D7AA27100593A1D /* CounterBasedOTP+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D10701D7AA27100593A1D /* CounterBasedOTP+HMAC.swift */; };
+		DF7D10721D7AA27100593A1D /* CounterBasedOTP+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D10701D7AA27100593A1D /* CounterBasedOTP+HMAC.swift */; };
+		DF7D10731D7AA27100593A1D /* CounterBasedOTP+HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D10701D7AA27100593A1D /* CounterBasedOTP+HMAC.swift */; };
 		DFBAE1DD1D7A88D1002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFBAE1DE1D7A88D2002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFBAE1DF1D7A88D3002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +28,9 @@
 		DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/Mac/CryptoKit.framework; sourceTree = "<group>"; };
 		DF7D105D1D7A970700593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/iOS/CryptoKit.framework; sourceTree = "<group>"; };
 		DF7D105F1D7A970F00593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/watchOS/CryptoKit.framework; sourceTree = "<group>"; };
+		DF7D10681D7A988300593A1D /* CounterBasedOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterBasedOTP.swift; sourceTree = "<group>"; };
+		DF7D106C1D7AA22900593A1D /* Data+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Int.swift"; sourceTree = "<group>"; };
+		DF7D10701D7AA27100593A1D /* CounterBasedOTP+HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CounterBasedOTP+HMAC.swift"; sourceTree = "<group>"; };
 		DFBAE1B61D7A8814002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBAE1C41D7A8829002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBAE1D11D7A8835002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +100,23 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
+		DF7D10741D7AA28800593A1D /* Data Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D106C1D7AA22900593A1D /* Data+Int.swift */,
+			);
+			path = "Data Extensions";
+			sourceTree = "<group>";
+		};
+		DF7D10751D7AA2BE00593A1D /* CounterBasedOTP */ = {
+			isa = PBXGroup;
+			children = (
+				DF7D10681D7A988300593A1D /* CounterBasedOTP.swift */,
+				DF7D10701D7AA27100593A1D /* CounterBasedOTP+HMAC.swift */,
+			);
+			path = CounterBasedOTP;
+			sourceTree = "<group>";
+		};
 		DFBAE1AA1D7A8777002CF81C = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +139,8 @@
 		DFBAE1D91D7A888D002CF81C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				DF7D10751D7AA2BE00593A1D /* CounterBasedOTP */,
+				DF7D10741D7AA28800593A1D /* Data Extensions */,
 				DFBAE1DC1D7A8895002CF81C /* Supporting Files */,
 			);
 			path = Sources;
@@ -218,14 +249,17 @@
 				TargetAttributes = {
 					DFBAE1B51D7A8814002CF81C = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					DFBAE1C31D7A8829002CF81C = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					DFBAE1D01D7A8835002CF81C = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -278,6 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D10691D7A988300593A1D /* CounterBasedOTP.swift in Sources */,
+				DF7D106D1D7AA22900593A1D /* Data+Int.swift in Sources */,
+				DF7D10711D7AA27100593A1D /* CounterBasedOTP+HMAC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D106A1D7A988300593A1D /* CounterBasedOTP.swift in Sources */,
+				DF7D106E1D7AA22900593A1D /* Data+Int.swift in Sources */,
+				DF7D10721D7AA27100593A1D /* CounterBasedOTP+HMAC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7D106B1D7A988300593A1D /* CounterBasedOTP.swift in Sources */,
+				DF7D106F1D7AA22900593A1D /* Data+Int.swift in Sources */,
+				DF7D10731D7AA27100593A1D /* CounterBasedOTP+HMAC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
