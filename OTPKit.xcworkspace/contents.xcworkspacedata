@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:OTPKit.playground">
+   </FileRef>
+   <FileRef
       location = "container:OTPKit.xcodeproj">
    </FileRef>
    <FileRef
