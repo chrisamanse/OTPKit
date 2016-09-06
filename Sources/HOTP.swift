@@ -23,7 +23,7 @@ public enum HOTP {
         try HOTPValidator.validate(digits: digits)
         
         // Get data representation of counter in big-endian
-        let message = Data(from: counter)
+        let message = Data(from: counter.bigEndian)
         
         // Get HMAC value
         let hmac = HMAC(key: key, message: message, hashFunction: hashFunction)
