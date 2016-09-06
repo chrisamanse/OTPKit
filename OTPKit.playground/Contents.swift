@@ -13,5 +13,6 @@ guard let secret = try? Base32.decode(base32String) else {
 
 let passwordGenerator = TOTPGenerator(key: secret, period: 30, digits: 6, hashFunction: .sha1)
 
-try? passwordGenerator.password(date: Date())
-try? passwordGenerator.password(date: Date() + 30)
+let now = Date()
+try? passwordGenerator.password(for: now)
+try? passwordGenerator.password(for: now + 30)

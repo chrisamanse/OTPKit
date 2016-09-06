@@ -42,7 +42,7 @@ public struct TOTPGenerator {
     ///   - timeInterval: The number of seconds elapsed since the Unix epoch time (January 1, 1970 00:00 UTC).
     /// - throws: Throws an `HOTPError` or `TOTPError` case if unable to generate a password.
     /// - returns: A one-time password based on the time interval.
-    public func password(timeInterval: TimeInterval) throws -> String {
+    public func password(forTimeInterval timeInterval: TimeInterval) throws -> String {
         return try TOTP.generate(key: key, timeInterval: timeInterval, period: period, digits: digits, hashFunction: hashFunction)
     }
     
@@ -53,7 +53,7 @@ public struct TOTPGenerator {
     ///     (January 1, 1970 00:00 UTC).
     /// - throws: Throws an `HOTPError` or `TOTPError` case if unable to generate a password.
     /// - returns: A one-time password based on the date.
-    public func password(date: Date) throws -> String {
-        return try password(timeInterval: date.timeIntervalSince1970)
+    public func password(for date: Date) throws -> String {
+        return try password(forTimeInterval: date.timeIntervalSince1970)
     }
 }
