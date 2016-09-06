@@ -14,6 +14,9 @@
       location = "container:"
       name = "Metadata">
       <FileRef
+         location = "group:Cartfile">
+      </FileRef>
+      <FileRef
          location = "group:LICENSE">
       </FileRef>
       <FileRef
