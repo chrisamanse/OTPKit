@@ -10,4 +10,14 @@
    <FileRef
       location = "group:Carthage/Checkouts/CryptoKit/CryptoKit.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "Metadata">
+      <FileRef
+         location = "group:LICENSE">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
 </Workspace>
