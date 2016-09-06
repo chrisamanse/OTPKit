@@ -4,4 +4,7 @@
    <FileRef
       location = "container:OTPKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/CryptoKit/CryptoKit.xcodeproj">
+   </FileRef>
 </Workspace>
