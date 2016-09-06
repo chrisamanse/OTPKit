@@ -28,6 +28,9 @@
 		DFBAE1DD1D7A88D1002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFBAE1DE1D7A88D2002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFBAE1DF1D7A88D3002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC703CD1D7EB080006628A1 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC703CC1D7EB080006628A1 /* Base32.swift */; };
+		DFC703CE1D7EB080006628A1 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC703CC1D7EB080006628A1 /* Base32.swift */; };
+		DFC703CF1D7EB080006628A1 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC703CC1D7EB080006628A1 /* Base32.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,7 @@
 		DFBAE1D11D7A8835002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBAE1DA1D7A888D002CF81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFBAE1DB1D7A888D002CF81C /* OTPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPKit.h; sourceTree = "<group>"; };
+		DFC703CC1D7EB080006628A1 /* Base32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 				DF5BD97A1D7E82ED000612DD /* TOTP.swift */,
 				DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */,
 				DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */,
+				DFC703CB1D7EAF59006628A1 /* Base Encoding */,
 				DF7D10741D7AA28800593A1D /* Data Extensions */,
 				DFBAE1DC1D7A8895002CF81C /* Supporting Files */,
 			);
@@ -155,6 +160,14 @@
 				DFBAE1DA1D7A888D002CF81C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFC703CB1D7EAF59006628A1 /* Base Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				DFC703CC1D7EB080006628A1 /* Base32.swift */,
+			);
+			path = "Base Encoding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5BD97F1D7E88A2000612DD /* TOTPGenerator.swift in Sources */,
+				DFC703CD1D7EB080006628A1 /* Base32.swift in Sources */,
 				DF5BD97B1D7E82ED000612DD /* TOTP.swift in Sources */,
 				DF7D106D1D7AA22900593A1D /* Data+Int.swift in Sources */,
 				DF5BD9771D7E7BFB000612DD /* HOTP.swift in Sources */,
@@ -327,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5BD9801D7E88A2000612DD /* TOTPGenerator.swift in Sources */,
+				DFC703CE1D7EB080006628A1 /* Base32.swift in Sources */,
 				DF5BD97C1D7E82ED000612DD /* TOTP.swift in Sources */,
 				DF7D106E1D7AA22900593A1D /* Data+Int.swift in Sources */,
 				DF5BD9781D7E7BFB000612DD /* HOTP.swift in Sources */,
@@ -339,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5BD9811D7E88A2000612DD /* TOTPGenerator.swift in Sources */,
+				DFC703CF1D7EB080006628A1 /* Base32.swift in Sources */,
 				DF5BD97D1D7E82ED000612DD /* TOTP.swift in Sources */,
 				DF7D106F1D7AA22900593A1D /* Data+Int.swift in Sources */,
 				DF5BD9791D7E7BFB000612DD /* HOTP.swift in Sources */,
