@@ -78,6 +78,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF385B961D8ADBFD001E7BAA /* OTPKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF5BD9761D7E7BFB000612DD /* HOTP.swift */,
+				DF5BD97A1D7E82ED000612DD /* TOTP.swift */,
+				DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */,
+				DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */,
+				DFC703CB1D7EAF59006628A1 /* Base Encoding */,
+				DF7D10741D7AA28800593A1D /* Data Extensions */,
+			);
+			path = OTPKit;
+			sourceTree = "<group>";
+		};
 		DF7D105A1D7A96FE00593A1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,12 +155,7 @@
 		DFBAE1D91D7A888D002CF81C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DF5BD9761D7E7BFB000612DD /* HOTP.swift */,
-				DF5BD97A1D7E82ED000612DD /* TOTP.swift */,
-				DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */,
-				DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */,
-				DFC703CB1D7EAF59006628A1 /* Base Encoding */,
-				DF7D10741D7AA28800593A1D /* Data Extensions */,
+				DF385B961D8ADBFD001E7BAA /* OTPKit */,
 				DFBAE1DC1D7A8895002CF81C /* Supporting Files */,
 			);
 			path = Sources;
