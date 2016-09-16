@@ -1,8 +1,10 @@
 # OTPKit
+[![Build Status](https://travis-ci.org/chrisamanse/OTPKit.svg?branch=master)](https://travis-ci.org/chrisamanse/OTPKit)
+![Swift Version](https://img.shields.io/badge/swift-3.0-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![spm compatible](https://img.shields.io/badge/spm-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/OTPKit.svg)](https://github.com/CocoaPods/CocoaPods)
-[![Platform](https://img.shields.io/cocoapods/p/OTPKit.svg)](http://cocoadocs.org/docsets/CryptoKit)
+![Platform](https://img.shields.io/badge/platform-ios%20%7C%20macos%20%7C%20tvos%20%7C%20watchos%20%7C%20linux-lightgrey.svg)
 
 OTPKit is a Swift framework containing implementations of one-time password algorithms.
 
