@@ -7,820 +7,374 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF5BD9731D7E794D000612DD /* HOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */; };
-		DF5BD9741D7E794D000612DD /* HOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */; };
-		DF5BD9751D7E794D000612DD /* HOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */; };
-		DF5BD9771D7E7BFB000612DD /* HOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD9761D7E7BFB000612DD /* HOTP.swift */; };
-		DF5BD9781D7E7BFB000612DD /* HOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD9761D7E7BFB000612DD /* HOTP.swift */; };
-		DF5BD9791D7E7BFB000612DD /* HOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD9761D7E7BFB000612DD /* HOTP.swift */; };
-		DF5BD97B1D7E82ED000612DD /* TOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD97A1D7E82ED000612DD /* TOTP.swift */; };
-		DF5BD97C1D7E82ED000612DD /* TOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD97A1D7E82ED000612DD /* TOTP.swift */; };
-		DF5BD97D1D7E82ED000612DD /* TOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD97A1D7E82ED000612DD /* TOTP.swift */; };
-		DF5BD97F1D7E88A2000612DD /* TOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */; };
-		DF5BD9801D7E88A2000612DD /* TOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */; };
-		DF5BD9811D7E88A2000612DD /* TOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */; };
-		DF7D105C1D7A96FE00593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */; };
-		DF7D105E1D7A970700593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105D1D7A970700593A1D /* CryptoKit.framework */; };
-		DF7D10601D7A970F00593A1D /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7D105F1D7A970F00593A1D /* CryptoKit.framework */; };
-		DF7D106D1D7AA22900593A1D /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D106C1D7AA22900593A1D /* Data+Int.swift */; };
-		DF7D106E1D7AA22900593A1D /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D106C1D7AA22900593A1D /* Data+Int.swift */; };
-		DF7D106F1D7AA22900593A1D /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D106C1D7AA22900593A1D /* Data+Int.swift */; };
-		DFBAE1DD1D7A88D1002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFBAE1DE1D7A88D2002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFBAE1DF1D7A88D3002CF81C /* OTPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBAE1DB1D7A888D002CF81C /* OTPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFC703CD1D7EB080006628A1 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC703CC1D7EB080006628A1 /* Base32.swift */; };
-		DFC703CE1D7EB080006628A1 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC703CC1D7EB080006628A1 /* Base32.swift */; };
-		DFC703CF1D7EB080006628A1 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC703CC1D7EB080006628A1 /* Base32.swift */; };
+		DF698F231D8BE9C900A80E45 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF698F1B1D8BE9C900A80E45 /* Base32.swift */; };
+		DF698F241D8BE9C900A80E45 /* Data+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF698F1E1D8BE9C900A80E45 /* Data+Int.swift */; };
+		DF698F251D8BE9C900A80E45 /* HOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF698F1F1D8BE9C900A80E45 /* HOTP.swift */; };
+		DF698F261D8BE9C900A80E45 /* HOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF698F201D8BE9C900A80E45 /* HOTPGenerator.swift */; };
+		DF698F271D8BE9C900A80E45 /* TOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF698F211D8BE9C900A80E45 /* TOTP.swift */; };
+		DF698F281D8BE9C900A80E45 /* TOTPGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF698F221D8BE9C900A80E45 /* TOTPGenerator.swift */; };
+		DF698F2F1D8BFEF000A80E45 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF698F2E1D8BFEF000A80E45 /* CryptoKit.framework */; };
+		_LinkFileRef_OTPKit_via_OTPKitTests /* OTPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_OTPKit" /* OTPKit.framework */; };
+		__src_cc_ref_Tests/OTPKitTests/OTPKitTests.swift /* OTPKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/OTPKitTests/OTPKitTests.swift /* OTPKitTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DF698F191D8BE77800A80E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_OTPKit";
+			remoteInfo = OTPKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOTPGenerator.swift; sourceTree = "<group>"; };
-		DF5BD9761D7E7BFB000612DD /* HOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOTP.swift; sourceTree = "<group>"; };
-		DF5BD97A1D7E82ED000612DD /* TOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOTP.swift; sourceTree = "<group>"; };
-		DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOTPGenerator.swift; sourceTree = "<group>"; };
-		DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/Mac/CryptoKit.framework; sourceTree = "<group>"; };
-		DF7D105D1D7A970700593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/iOS/CryptoKit.framework; sourceTree = "<group>"; };
-		DF7D105F1D7A970F00593A1D /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Carthage/Build/watchOS/CryptoKit.framework; sourceTree = "<group>"; };
-		DF7D106C1D7AA22900593A1D /* Data+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Int.swift"; sourceTree = "<group>"; };
-		DFBAE1B61D7A8814002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFBAE1C41D7A8829002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFBAE1D11D7A8835002CF81C /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFBAE1DA1D7A888D002CF81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFBAE1DB1D7A888D002CF81C /* OTPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPKit.h; sourceTree = "<group>"; };
-		DFC703CC1D7EB080006628A1 /* Base32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
+		DF698F1B1D8BE9C900A80E45 /* Base32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
+		DF698F1E1D8BE9C900A80E45 /* Data+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Int.swift"; sourceTree = "<group>"; };
+		DF698F1F1D8BE9C900A80E45 /* HOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOTP.swift; sourceTree = "<group>"; };
+		DF698F201D8BE9C900A80E45 /* HOTPGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HOTPGenerator.swift; sourceTree = "<group>"; };
+		DF698F211D8BE9C900A80E45 /* TOTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOTP.swift; sourceTree = "<group>"; };
+		DF698F221D8BE9C900A80E45 /* TOTPGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOTPGenerator.swift; sourceTree = "<group>"; };
+		DF698F2E1D8BFEF000A80E45 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/OTPKit-aonwouvhrqaoopauiublzdqdtmvp/Build/Products/Debug/CryptoKit.framework"; sourceTree = "<group>"; };
+		DF698F301D8C056000A80E45 /* OTPKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OTPKit.playground; sourceTree = "<group>"; };
+		__PBXFileRef_OTPKit.xcodeproj/Configs/Project.xcconfig /* OTPKit.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = OTPKit.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/OTPKitTests/OTPKitTests.swift /* OTPKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPKitTests.swift; sourceTree = "<group>"; };
+		"_____Product_OTPKit" /* OTPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OTPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_OTPKitTests" /* OTPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = OTPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DFBAE1B21D7A8814002CF81C /* Frameworks */ = {
+		"___LinkPhase_OTPKit" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				DF7D105C1D7A96FE00593A1D /* CryptoKit.framework in Frameworks */,
+				DF698F2F1D8BFEF000A80E45 /* CryptoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFBAE1C01D7A8829002CF81C /* Frameworks */ = {
+		"___LinkPhase_OTPKitTests" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				DF7D105E1D7A970700593A1D /* CryptoKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFBAE1CD1D7A8835002CF81C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF7D10601D7A970F00593A1D /* CryptoKit.framework in Frameworks */,
+				_LinkFileRef_OTPKit_via_OTPKitTests /* OTPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF385B961D8ADBFD001E7BAA /* OTPKit */ = {
+		DF698F1A1D8BE9C900A80E45 /* Base Encoding */ = {
 			isa = PBXGroup;
 			children = (
-				DF5BD9761D7E7BFB000612DD /* HOTP.swift */,
-				DF5BD97A1D7E82ED000612DD /* TOTP.swift */,
-				DF5BD9721D7E794D000612DD /* HOTPGenerator.swift */,
-				DF5BD97E1D7E88A2000612DD /* TOTPGenerator.swift */,
-				DFC703CB1D7EAF59006628A1 /* Base Encoding */,
-				DF7D10741D7AA28800593A1D /* Data Extensions */,
-			);
-			path = OTPKit;
-			sourceTree = "<group>";
-		};
-		DF7D105A1D7A96FE00593A1D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DF7D10621D7A972B00593A1D /* iOS */,
-				DF7D10611D7A972600593A1D /* macOS */,
-				DF7D10631D7A973500593A1D /* watchOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DF7D10611D7A972600593A1D /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				DF7D105B1D7A96FE00593A1D /* CryptoKit.framework */,
-			);
-			name = macOS;
-			sourceTree = "<group>";
-		};
-		DF7D10621D7A972B00593A1D /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DF7D105D1D7A970700593A1D /* CryptoKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DF7D10631D7A973500593A1D /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				DF7D105F1D7A970F00593A1D /* CryptoKit.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		DF7D10741D7AA28800593A1D /* Data Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				DF7D106C1D7AA22900593A1D /* Data+Int.swift */,
-			);
-			path = "Data Extensions";
-			sourceTree = "<group>";
-		};
-		DFBAE1AA1D7A8777002CF81C = {
-			isa = PBXGroup;
-			children = (
-				DFBAE1D91D7A888D002CF81C /* Sources */,
-				DFBAE1B71D7A8814002CF81C /* Products */,
-				DF7D105A1D7A96FE00593A1D /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		DFBAE1B71D7A8814002CF81C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DFBAE1B61D7A8814002CF81C /* OTPKit.framework */,
-				DFBAE1C41D7A8829002CF81C /* OTPKit.framework */,
-				DFBAE1D11D7A8835002CF81C /* OTPKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DFBAE1D91D7A888D002CF81C /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				DF385B961D8ADBFD001E7BAA /* OTPKit */,
-				DFBAE1DC1D7A8895002CF81C /* Supporting Files */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		DFBAE1DC1D7A8895002CF81C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFBAE1DB1D7A888D002CF81C /* OTPKit.h */,
-				DFBAE1DA1D7A888D002CF81C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DFC703CB1D7EAF59006628A1 /* Base Encoding */ = {
-			isa = PBXGroup;
-			children = (
-				DFC703CC1D7EB080006628A1 /* Base32.swift */,
+				DF698F1B1D8BE9C900A80E45 /* Base32.swift */,
 			);
 			path = "Base Encoding";
 			sourceTree = "<group>";
 		};
+		DF698F1C1D8BE9C900A80E45 /* CounterBasedOTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CounterBasedOTP;
+			sourceTree = "<group>";
+		};
+		DF698F1D1D8BE9C900A80E45 /* Data Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF698F1E1D8BE9C900A80E45 /* Data+Int.swift */,
+			);
+			path = "Data Extensions";
+			sourceTree = "<group>";
+		};
+		DF698F2D1D8BFEEF00A80E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF698F2E1D8BFEF000A80E45 /* CryptoKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_OTPKitTests" /* OTPKitTests.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				DF698F301D8C056000A80E45 /* OTPKit.playground */,
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+				DF698F2D1D8BFEEF00A80E45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_OTPKit" /* OTPKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_OTPKit.xcodeproj/Configs/Project.xcconfig /* OTPKit.xcodeproj/Configs/Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_OTPKit" /* OTPKit */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_OTPKit" /* OTPKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF698F1A1D8BE9C900A80E45 /* Base Encoding */,
+				DF698F1C1D8BE9C900A80E45 /* CounterBasedOTP */,
+				DF698F1D1D8BE9C900A80E45 /* Data Extensions */,
+				DF698F1F1D8BE9C900A80E45 /* HOTP.swift */,
+				DF698F201D8BE9C900A80E45 /* HOTPGenerator.swift */,
+				DF698F211D8BE9C900A80E45 /* TOTP.swift */,
+				DF698F221D8BE9C900A80E45 /* TOTPGenerator.swift */,
+			);
+			name = OTPKit;
+			path = Sources/OTPKit;
+			sourceTree = "<group>";
+		};
+		"_______Group_OTPKitTests" /* OTPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/OTPKitTests/OTPKitTests.swift /* OTPKitTests.swift */,
+			);
+			name = OTPKitTests;
+			path = Tests/OTPKitTests;
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_OTPKitTests" /* OTPKitTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		DFBAE1B31D7A8814002CF81C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFBAE1DD1D7A88D1002CF81C /* OTPKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFBAE1C11D7A8829002CF81C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFBAE1DE1D7A88D2002CF81C /* OTPKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFBAE1CE1D7A8835002CF81C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFBAE1DF1D7A88D3002CF81C /* OTPKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		DFBAE1B51D7A8814002CF81C /* OTPKit macOS */ = {
+		"______Target_OTPKit" /* OTPKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFBAE1BE1D7A8814002CF81C /* Build configuration list for PBXNativeTarget "OTPKit macOS" */;
+			buildConfigurationList = "_______Confs_OTPKit" /* Build configuration list for PBXNativeTarget "OTPKit" */;
 			buildPhases = (
-				DFBAE1B11D7A8814002CF81C /* Sources */,
-				DFBAE1B21D7A8814002CF81C /* Frameworks */,
-				DFBAE1B31D7A8814002CF81C /* Headers */,
-				DFBAE1B41D7A8814002CF81C /* Resources */,
+				CompilePhase_OTPKit /* Sources */,
+				"___LinkPhase_OTPKit" /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "OTPKit macOS";
-			productName = "OTPKit macOS";
-			productReference = DFBAE1B61D7A8814002CF81C /* OTPKit.framework */;
+			name = OTPKit;
+			productName = OTPKit;
+			productReference = "_____Product_OTPKit" /* OTPKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DFBAE1C31D7A8829002CF81C /* OTKit iOS */ = {
+		"______Target_OTPKitTests" /* OTPKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFBAE1C91D7A8829002CF81C /* Build configuration list for PBXNativeTarget "OTKit iOS" */;
+			buildConfigurationList = "_______Confs_OTPKitTests" /* Build configuration list for PBXNativeTarget "OTPKitTests" */;
 			buildPhases = (
-				DFBAE1BF1D7A8829002CF81C /* Sources */,
-				DFBAE1C01D7A8829002CF81C /* Frameworks */,
-				DFBAE1C11D7A8829002CF81C /* Headers */,
-				DFBAE1C21D7A8829002CF81C /* Resources */,
+				CompilePhase_OTPKitTests /* Sources */,
+				"___LinkPhase_OTPKitTests" /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				__Dependency_OTPKit /* PBXTargetDependency */,
 			);
-			name = "OTKit iOS";
-			productName = "OTKit iOS";
-			productReference = DFBAE1C41D7A8829002CF81C /* OTPKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DFBAE1D01D7A8835002CF81C /* OTPKit watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFBAE1D61D7A8835002CF81C /* Build configuration list for PBXNativeTarget "OTPKit watchOS" */;
-			buildPhases = (
-				DFBAE1CC1D7A8835002CF81C /* Sources */,
-				DFBAE1CD1D7A8835002CF81C /* Frameworks */,
-				DFBAE1CE1D7A8835002CF81C /* Headers */,
-				DFBAE1CF1D7A8835002CF81C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OTPKit watchOS";
-			productName = "OTPKit watchOS";
-			productReference = DFBAE1D11D7A8835002CF81C /* OTPKit.framework */;
-			productType = "com.apple.product-type.framework";
+			name = OTPKitTests;
+			productName = OTPKitTests;
+			productReference = "_____Product_OTPKitTests" /* OTPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DFBAE1AB1D7A8777002CF81C /* Project object */ = {
+		__RootObject_ /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
-				TargetAttributes = {
-					DFBAE1B51D7A8814002CF81C = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					DFBAE1C31D7A8829002CF81C = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					DFBAE1D01D7A8835002CF81C = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = DFBAE1AE1D7A8777002CF81C /* Build configuration list for PBXProject "OTPKit" */;
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "OTPKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DFBAE1AA1D7A8777002CF81C;
-			productRefGroup = DFBAE1B71D7A8814002CF81C /* Products */;
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFBAE1B51D7A8814002CF81C /* OTPKit macOS */,
-				DFBAE1C31D7A8829002CF81C /* OTKit iOS */,
-				DFBAE1D01D7A8835002CF81C /* OTPKit watchOS */,
+				"______Target_OTPKit" /* OTPKit */,
+				"______Target_OTPKitTests" /* OTPKitTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		DFBAE1B41D7A8814002CF81C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFBAE1C21D7A8829002CF81C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFBAE1CF1D7A8835002CF81C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		DFBAE1B11D7A8814002CF81C /* Sources */ = {
+		CompilePhase_OTPKit /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				DF5BD97F1D7E88A2000612DD /* TOTPGenerator.swift in Sources */,
-				DFC703CD1D7EB080006628A1 /* Base32.swift in Sources */,
-				DF5BD97B1D7E82ED000612DD /* TOTP.swift in Sources */,
-				DF7D106D1D7AA22900593A1D /* Data+Int.swift in Sources */,
-				DF5BD9771D7E7BFB000612DD /* HOTP.swift in Sources */,
-				DF5BD9731D7E794D000612DD /* HOTPGenerator.swift in Sources */,
+				DF698F251D8BE9C900A80E45 /* HOTP.swift in Sources */,
+				DF698F261D8BE9C900A80E45 /* HOTPGenerator.swift in Sources */,
+				DF698F231D8BE9C900A80E45 /* Base32.swift in Sources */,
+				DF698F281D8BE9C900A80E45 /* TOTPGenerator.swift in Sources */,
+				DF698F271D8BE9C900A80E45 /* TOTP.swift in Sources */,
+				DF698F241D8BE9C900A80E45 /* Data+Int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFBAE1BF1D7A8829002CF81C /* Sources */ = {
+		CompilePhase_OTPKitTests /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				DF5BD9801D7E88A2000612DD /* TOTPGenerator.swift in Sources */,
-				DFC703CE1D7EB080006628A1 /* Base32.swift in Sources */,
-				DF5BD97C1D7E82ED000612DD /* TOTP.swift in Sources */,
-				DF7D106E1D7AA22900593A1D /* Data+Int.swift in Sources */,
-				DF5BD9781D7E7BFB000612DD /* HOTP.swift in Sources */,
-				DF5BD9741D7E794D000612DD /* HOTPGenerator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFBAE1CC1D7A8835002CF81C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF5BD9811D7E88A2000612DD /* TOTPGenerator.swift in Sources */,
-				DFC703CF1D7EB080006628A1 /* Base32.swift in Sources */,
-				DF5BD97D1D7E82ED000612DD /* TOTP.swift in Sources */,
-				DF7D106F1D7AA22900593A1D /* Data+Int.swift in Sources */,
-				DF5BD9791D7E7BFB000612DD /* HOTP.swift in Sources */,
-				DF5BD9751D7E794D000612DD /* HOTPGenerator.swift in Sources */,
+				__src_cc_ref_Tests/OTPKitTests/OTPKitTests.swift /* OTPKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		__Dependency_OTPKit /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_OTPKit" /* OTPKit */;
+			targetProxy = DF698F191D8BE77800A80E45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		DFBAE1AF1D7A8777002CF81C /* Debug */ = {
+		_ReleaseConf_OTPKit /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-			};
-			name = Debug;
-		};
-		DFBAE1B01D7A8777002CF81C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = OTPKit.xcodeproj/OTPKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OTPKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		DFBAE1BC1D7A8814002CF81C /* Debug */ = {
+		_ReleaseConf_OTPKitTests /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = OTPKit.xcodeproj/OTPKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks @executable_path/../Frameworks @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_OTPKit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.chrisamanse.OTPKit-macOS";
-				PRODUCT_NAME = OTPKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = OTPKit.xcodeproj/OTPKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OTPKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DFBAE1BD1D7A8814002CF81C /* Release */ = {
+		"___DebugConf_OTPKitTests" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.chrisamanse.OTPKit-macOS";
-				PRODUCT_NAME = OTPKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DFBAE1CA1D7A8829002CF81C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.chrisamanse.OTKit-iOS";
-				PRODUCT_NAME = OTPKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = OTPKit.xcodeproj/OTPKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks @executable_path/../Frameworks @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DFBAE1CB1D7A8829002CF81C /* Release */ = {
+		"_____Release_" /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_OTPKit.xcodeproj/Configs/Project.xcconfig /* OTPKit.xcodeproj/Configs/Project.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.chrisamanse.OTKit-iOS";
-				PRODUCT_NAME = OTPKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		DFBAE1D71D7A8835002CF81C /* Debug */ = {
+		"_______Debug_" /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_OTPKit.xcodeproj/Configs/Project.xcconfig /* OTPKit.xcodeproj/Configs/Project.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.chrisamanse.OTPKit-watchOS";
-				PRODUCT_NAME = OTPKit;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
-		};
-		DFBAE1D81D7A8835002CF81C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.chrisamanse.OTPKit-watchOS";
-				PRODUCT_NAME = OTPKit;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFBAE1AE1D7A8777002CF81C /* Build configuration list for PBXProject "OTPKit" */ = {
+		"___RootConfs_" /* Build configuration list for PBXProject "OTPKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFBAE1AF1D7A8777002CF81C /* Debug */,
-				DFBAE1B01D7A8777002CF81C /* Release */,
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		DFBAE1BE1D7A8814002CF81C /* Build configuration list for PBXNativeTarget "OTPKit macOS" */ = {
+		"_______Confs_OTPKit" /* Build configuration list for PBXNativeTarget "OTPKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFBAE1BC1D7A8814002CF81C /* Debug */,
-				DFBAE1BD1D7A8814002CF81C /* Release */,
+				"___DebugConf_OTPKit" /* Debug */,
+				_ReleaseConf_OTPKit /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		DFBAE1C91D7A8829002CF81C /* Build configuration list for PBXNativeTarget "OTKit iOS" */ = {
+		"_______Confs_OTPKitTests" /* Build configuration list for PBXNativeTarget "OTPKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFBAE1CA1D7A8829002CF81C /* Debug */,
-				DFBAE1CB1D7A8829002CF81C /* Release */,
+				"___DebugConf_OTPKitTests" /* Debug */,
+				_ReleaseConf_OTPKitTests /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DFBAE1D61D7A8835002CF81C /* Build configuration list for PBXNativeTarget "OTPKit watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DFBAE1D71D7A8835002CF81C /* Debug */,
-				DFBAE1D81D7A8835002CF81C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DFBAE1AB1D7A8777002CF81C /* Project object */;
+	rootObject = __RootObject_ /* Project object */;
 }
