@@ -14,6 +14,9 @@
          location = "group:.swift-version">
       </FileRef>
       <FileRef
+         location = "group:.travis.yml">
+      </FileRef>
+      <FileRef
          location = "group:OTPKit.podspec">
       </FileRef>
       <FileRef
