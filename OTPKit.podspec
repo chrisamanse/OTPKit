@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OTPKit"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Pure Swift implementations of one-time password algorithms."
   s.description  = <<-DESC
                      OTPKit is a Swift framework containing implementations of one-time password algorithms.
@@ -14,8 +14,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target      = "9.0"
   s.osx.deployment_target      = "10.11"
   s.watchos.deployment_target  = "2.0"
+  s.tvos.deployment_target     = "10"
   
-  s.source        = { :git => "https://github.com/chrisamanse/OTPKit.git", :tag => "v#{s.version}" }
+  s.source        = { :git => "https://github.com/chrisamanse/OTPKit.git", :tag => "#{s.version}" }
   s.source_files  = "Sources", "Sources/**/*.{h,swift}"
   
   s.requires_arc         = true
