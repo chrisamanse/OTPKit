@@ -72,13 +72,6 @@
 			path = "Base Encoding";
 			sourceTree = "<group>";
 		};
-		DF698F1C1D8BE9C900A80E45 /* CounterBasedOTP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CounterBasedOTP;
-			sourceTree = "<group>";
-		};
 		DF698F1D1D8BE9C900A80E45 /* Data Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				DF698F1A1D8BE9C900A80E45 /* Base Encoding */,
-				DF698F1C1D8BE9C900A80E45 /* CounterBasedOTP */,
 				DF698F1D1D8BE9C900A80E45 /* Data Extensions */,
 				DF698F1F1D8BE9C900A80E45 /* HOTP.swift */,
 				DF698F201D8BE9C900A80E45 /* HOTPGenerator.swift */,
