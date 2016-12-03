@@ -81,6 +81,10 @@ public enum Base32 {
     // Decoding
     
     public static func decode(_ string: String) throws -> Data {
+        guard !string.isEmpty else {
+            return Data()
+        }
+        
         var bytes: [UInt8] = []
         
         // Divide into groups of 8 characters
