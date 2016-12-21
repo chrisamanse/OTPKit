@@ -28,9 +28,9 @@ public enum Base32 {
             
             for (index, byte) in piece.enumerated() {
                 let shiftLeftsCount = (4 - index) * 8
-                let shifted = Int(byte) << shiftLeftsCount
+                let shifted = UInt64(byte) << UInt64(shiftLeftsCount)
                 
-                integer = integer | UInt64(shifted)
+                integer = integer | shifted
             }
             
             // Divide 40 bits into 5 bits (8 groups)
